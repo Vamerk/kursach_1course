@@ -1,0 +1,65 @@
+  kursach01.LoginForm.resources - Embedded, ContainedInManifestFile, 
+  kursach01.MainForm.resources - Embedded, ContainedInManifestFile, 
+  kursach01.RegForm.resources - Embedded, ContainedInManifestFile, 
+  kursach01.RequestsForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly kursach01, Version=0.0.*, Culture=Инвариантный язык (Инвариантная страна): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class User: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 id : Public
+    System.String login : Public
+    System.String password : Public
+    System.String name : Public
+    System.String sername : Public
+    System.ValueType birthday DateTime IsBoxed : Public
+    System.String book1 : Public
+    System.String book2 : Public
+    System.String book3 : Public
+Class kursach01.LoginForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    User user : Public
+    Boolean switchToRegister : Public
+Class kursach01.RequestsForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 uid : Public
+    System.String uname : Public
+    System.String username : Public
+    System.String ubook1 : Public
+    System.String ubook2 : Public
+Class kursach01.MainForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(User): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 uid : Public
+    System.String uname : Public
+    System.String username : Public
+    System.String ubook1 : Public
+    System.String ubook2 : Public
+    System.String ubook3 : Public
+    System.String selectReadingroom : Public
+    System.String connString : Public
+    User user : Public
+Class kursach01.RegForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    User user : Public
+    Boolean switchToLogin : Public

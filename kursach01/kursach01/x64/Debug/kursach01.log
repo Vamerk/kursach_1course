@@ -1,0 +1,8 @@
+﻿  MainForm.cpp
+  Program.cpp
+C:\Users\ashat\source\repos\kursach01\kursach01\RegForm.h(310,22): warning C4101: e: неиспользованная локальная переменная
+C:\Users\ashat\source\repos\kursach01\kursach01\Program.cpp(8,33): warning C4829: Возможно, неправильные параметры функции main. Рекомендуемый вариант - "int main(Platform::Array<Platform::String^>^ argv)"
+  RequestsForm.cpp
+  Создание кода...
+  LoginForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  kursach01.vcxproj -> C:\Users\ashat\source\repos\kursach01\x64\Debug\kursach01.exe

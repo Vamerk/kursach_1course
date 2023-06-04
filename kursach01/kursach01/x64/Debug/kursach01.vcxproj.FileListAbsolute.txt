@@ -1,0 +1,7 @@
+C:\Users\ashat\source\repos\kursach01\kursach01\x64\Debug\kursach01.vcxproj.AssemblyReference.cache
+C:\Users\ashat\source\repos\kursach01\kursach01\x64\Debug\kursach01.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\ashat\source\repos\kursach01\kursach01\x64\Debug\kursach01.LoginForm.resources
+C:\Users\ashat\source\repos\kursach01\kursach01\x64\Debug\kursach01.vcxproj.GenerateResource.cache
+C:\Users\ashat\source\repos\kursach01\kursach01\x64\Debug\kursach01.MainForm.resources
+C:\Users\ashat\source\repos\kursach01\kursach01\x64\Debug\kursach01.RegForm.resources
+C:\Users\ashat\source\repos\kursach01\kursach01\x64\Debug\kursach01.RequestsForm.resources
